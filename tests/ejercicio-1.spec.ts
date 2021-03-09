@@ -1,17 +1,17 @@
 import 'mocha';
 import {expect} from 'chai';
-import {add} from '../src/ejercicio-1';
+import {decodeResistor} from '../src/ejercicio-1';
 
-describe('add function tests', () => {
-  it('add(1, 8) returns value 9', () => {
-    expect(add(1, 8)).to.be.equal(9);
+describe('Ejercicio 1 - Decodificar resistencias', () => {
+  it('decodeResistor(Marron, Verde) returns value 15', () => {
+    expect(decodeResistor(`Marron`, `Verde`)).to.be.equal(15);
   });
 
-  it('add(-1, 8) returns value 7', () => {
-    expect(add(-1, 8)).to.be.equal(7);
+  it('decodeResistor(`Marron`, `Verde`, `Violeta`) returns value 15', () => {
+    expect(decodeResistor(`Marron`, `Verde`, `Violeta`)).to.be.equal(15);
   });
 
-  it('add(1.2, 3.5) returns value 4.7', () => {
-    expect(add(1.2, 3.5)).to.be.equal(4.7);
+  it('decodeResistor(`Azul`, `Verde`) returns value 65', () => {
+    expect(decodeResistor(`Azul`, `Verde`)).to.be.equal(65);
   });
 });

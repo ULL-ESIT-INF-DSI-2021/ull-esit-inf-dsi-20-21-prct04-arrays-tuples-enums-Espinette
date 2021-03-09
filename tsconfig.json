@@ -12,6 +12,7 @@
     "declaration": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "strictPropertyInitialization": true
   }
 }
