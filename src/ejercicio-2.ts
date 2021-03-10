@@ -1,3 +1,11 @@
+/**
+ * __Funcion para comprobar si el array está formado por palabras encadenadas__
+ * @param arrayCadena Array con las palabras a analizar
+ * @returns Devuelve una palabra con las letras que encadenan una cadena con otra o error al encadenar si no es posible
+ * ```TypeScript
+ * meshArray([“allow”, “lowering”, “ringmaster”, “terror”]) -> "lowringter"
+ * ```
+ */
 export function meshArray(arrayCadena: string[]) {
   let salida: string = ``;
   for (let i: number = 0; i < arrayCadena.length - 1; i++) {
