@@ -1,12 +1,28 @@
 type Point = [number, number];
-
+/**
+ * __Funcion que suma dos puntos__
+ * @param punto1 Primer punto a sumar
+ * @param punto2 Segundo punto a sumar
+ * @returns La suma de ambos puntos
+ * ```TypeScript
+ * sumaPoints([6, 4], [3, 2]) -> [9, 6]
+ * ```
+ */
 export function sumaPoints(punto1: Point, punto2: Point) {
   const puntoF: Point = [0, 0];
   puntoF[0] = punto1[0] + punto2[0];
   puntoF[1] = punto1[1] + punto2[1];
   return puntoF;
 }
-
+/**
+ * __Funcion que resta dos puntos__
+ * @param punto1 Primer punto a restar
+ * @param punto2 Segundo punto a restar
+ * @returns La resta de ambos puntos
+ * ```TypeScript
+ * restaPoints([6, 4], [3, 2]) -> [3, 2]
+ * ```
+ */
 export function restaPoints(punto1: Point, punto2: Point) {
   const puntoF: Point = [0, 0];
   puntoF[0] = punto1[0] - punto2[0];
@@ -14,6 +30,15 @@ export function restaPoints(punto1: Point, punto2: Point) {
   return puntoF;
 }
 
+/**
+ * __Funcion que multiplica un puntos por un número__
+ * @param punto1 Punto a multiplicar
+ * @param mult Numero por el que se multiplica
+ * @returns El punto multiplicado
+ * ```TypeScript
+ * productoPoints([6, 4], 4) -> [18, 12]
+ * ```
+ */
 export function productoPoints(punto1: Point, mult: number) {
   const puntoF: Point = [0, 0];
   puntoF[0] = punto1[0] * mult;
@@ -21,6 +46,15 @@ export function productoPoints(punto1: Point, mult: number) {
   return puntoF;
 }
 
+/**
+ * __Función que hace la distancia Euclidea entre dos puntos__
+ * @param punto1 Primer punto
+ * @param punto2 Segundo punto
+ * @returns La operacion realizada
+ * ```TypeScript
+ * distEuclidea([6, 4], [3, 2]) -> 3,61
+ * ```
+ */
 export function distEuclidea(punto1: Point, punto2: Point) {
   let sol: number = 0;
   let aux1: number = 0;
