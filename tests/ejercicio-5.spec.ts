@@ -8,6 +8,6 @@ describe('Ejercicio 5 - Factoría de multiplicaciones', () => {
   });
 
   it('multiplyAll([3, 5, 7, 9])(2) returns value [6, 10, 14, 18]', () => {
-    expect(multiplyAll([3, 5, 7, 9])(2).to.be.deep.equal([6, 10, 14, 18]);
+    expect(multiplyAll([3, 5, 7, 9])(2)).to.be.deep.equal([6, 10, 14, 18]);
   });
 });

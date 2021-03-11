@@ -1,4 +1,10 @@
 
 export function multiplyAll(arrayNum: number[]) {
-  return arrayNum;
+  return (mult: number) => {
+    const sol: number[] = [];
+    arrayNum.forEach((number) => {
+      sol.push(number * mult);
+    });
+    return sol;
+  };
 }
