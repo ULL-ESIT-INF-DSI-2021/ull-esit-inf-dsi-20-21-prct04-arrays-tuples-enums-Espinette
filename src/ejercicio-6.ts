@@ -5,10 +5,10 @@ type Point = [number, number];
  * @param punto2 Segundo punto a sumar
  * @returns La suma de ambos puntos
  * ```TypeScript
- * sumaPoints([6, 4], [3, 2]) -> [9, 6]
+ * sumaBiPoints([6, 4], [3, 2]) -> [9, 6]
  * ```
  */
-export function sumaPoints(punto1: Point, punto2: Point) {
+export function sumaBiPoints(punto1: Point, punto2: Point) {
   const puntoF: Point = [0, 0];
   puntoF[0] = punto1[0] + punto2[0];
   puntoF[1] = punto1[1] + punto2[1];
@@ -20,10 +20,10 @@ export function sumaPoints(punto1: Point, punto2: Point) {
  * @param punto2 Segundo punto a restar
  * @returns La resta de ambos puntos
  * ```TypeScript
- * restaPoints([6, 4], [3, 2]) -> [3, 2]
+ * restaBiPoints([6, 4], [3, 2]) -> [3, 2]
  * ```
  */
-export function restaPoints(punto1: Point, punto2: Point) {
+export function restaBiPoints(punto1: Point, punto2: Point) {
   const puntoF: Point = [0, 0];
   puntoF[0] = punto1[0] - punto2[0];
   puntoF[1] = punto1[1] - punto2[1];
@@ -36,10 +36,10 @@ export function restaPoints(punto1: Point, punto2: Point) {
  * @param mult Numero por el que se multiplica
  * @returns El punto multiplicado
  * ```TypeScript
- * productoPoints([6, 4], 4) -> [18, 12]
+ * productoBiPoints([6, 4], 4) -> [18, 12]
  * ```
  */
-export function productoPoints(punto1: Point, mult: number) {
+export function productoBiPoints(punto1: Point, mult: number) {
   const puntoF: Point = [0, 0];
   puntoF[0] = punto1[0] * mult;
   puntoF[1] = punto1[1] * mult;
@@ -52,10 +52,10 @@ export function productoPoints(punto1: Point, mult: number) {
  * @param punto2 Segundo punto
  * @returns La operacion realizada
  * ```TypeScript
- * distEuclidea([6, 4], [3, 2]) -> 3,61
+ * distBiEuclidea([6, 4], [3, 2]) -> 3,61
  * ```
  */
-export function distEuclidea(punto1: Point, punto2: Point) {
+export function distBiEuclidea(punto1: Point, punto2: Point) {
   let sol: number = 0;
   let aux1: number = 0;
   let aux2: number = 0;
