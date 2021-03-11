@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>ejercicio-2 | ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette</title>
+	<title>ejercicio-5 | ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette</title>
 	<meta name="description" content="Documentation for ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -55,10 +55,10 @@
 					<a href="../modules.html">ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette</a>
 				</li>
 				<li>
-					<a href="ejercicio_2.html">ejercicio-2</a>
+					<a href="ejercicio_5.html">ejercicio-5</a>
 				</li>
 			</ul>
-			<h1>Module ejercicio-2</h1>
+			<h1>Module ejercicio-5</h1>
 		</div>
 	</div>
 </header>
@@ -72,7 +72,7 @@
 						<section class="tsd-index-section ">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-function tsd-parent-kind-module"><a href="ejercicio_2.html#mesharray" class="tsd-kind-icon">mesh<wbr>Array</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="ejercicio_5.html#multiplyall" class="tsd-kind-icon">multiply<wbr>All</a></li>
 							</ul>
 						</section>
 					</div>
@@ -81,36 +81,58 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Functions</h2>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
-					<a name="mesharray" class="tsd-anchor"></a>
-					<h3>mesh<wbr>Array</h3>
+					<a name="multiplyall" class="tsd-anchor"></a>
+					<h3>multiply<wbr>All</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
-						<li class="tsd-signature tsd-kind-icon">mesh<wbr>Array<span class="tsd-signature-symbol">(</span>arrayCadena<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+						<li class="tsd-signature tsd-kind-icon">multiply<wbr>All<span class="tsd-signature-symbol">(</span>arrayNum<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>mult<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/8c58af8/src/ejercicio-2.ts#L9">ejercicio-2.ts:9</a></li>
+									<li>Defined in <a href="https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/8c58af8/src/ejercicio-5.ts#L13">ejercicio-5.ts:13</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p><strong>Funcion para comprobar si el array está formado por palabras encadenadas</strong></p>
+									<p><strong>Funcion que lo que hace es multiplicar por un valor cada elemento del vector</strong></p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>arrayCadena: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
+									<h5>arrayNum: <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Array con las palabras a analizar</p>
+										<p>Array con los numeros a multiplicar</p>
 									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
-							<p>Devuelve una palabra con las letras que encadenan una cadena con otra o error al encadenar si no es posible</p>
-							<pre><code class="language-TypeScript"><span style="color: #795E26">meshArray</span><span style="color: #000000">([“</span><span style="color: #001080">allow</span><span style="color: #000000">”, “</span><span style="color: #001080">lowering</span><span style="color: #000000">”, “</span><span style="color: #001080">ringmaster</span><span style="color: #000000">”, “</span><span style="color: #001080">terror</span><span style="color: #000000">”]) -&gt; </span><span style="color: #A31515">&quot;lowringter&quot;</span>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">(</span>mult<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h4>
+							<p>Retorna una llamada a una funcion anónima</p>
+							<pre><code class="language-TypeScript"><span style="color: #795E26">multiplyAll</span><span style="color: #000000">([</span><span style="color: #098658">2</span><span style="color: #000000">,</span><span style="color: #098658">6</span><span style="color: #000000">,</span><span style="color: #098658">8</span><span style="color: #000000">])(</span><span style="color: #098658">3</span><span style="color: #000000">) -&gt; [</span><span style="color: #098658">6</span><span style="color: #000000">, </span><span style="color: #098658">18</span><span style="color: #000000">, </span><span style="color: #098658">24</span><span style="color: #000000">]</span>
 </code></pre>
+							<p><strong>Función anónima</strong></p>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter-signature">
+									<ul class="tsd-signatures tsd-kind-type-literal">
+										<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>mult<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></li>
+									</ul>
+									<ul class="tsd-descriptions">
+										<li class="tsd-description">
+											<h4 class="tsd-parameters-title">Parameters</h4>
+											<ul class="tsd-parameters">
+												<li>
+													<h5>mult: <span class="tsd-signature-type">number</span></h5>
+													<div class="tsd-comment tsd-typography">
+														<p>Numero por el que multiplicar</p>
+													</div>
+												</li>
+											</ul>
+											<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></h4>
+										</li>
+									</ul>
+								</li>
+							</ul>
 						</li>
 					</ul>
 				</section>
@@ -125,7 +147,7 @@
 					<li class=" tsd-kind-module">
 						<a href="ejercicio_1.html">ejercicio-<wbr>1</a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="ejercicio_2.html">ejercicio-<wbr>2</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -134,7 +156,7 @@
 					<li class=" tsd-kind-module">
 						<a href="ejercicio_4.html">ejercicio-<wbr>4</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="ejercicio_5.html">ejercicio-<wbr>5</a>
 					</li>
 				</ul>
@@ -142,7 +164,7 @@
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-function tsd-parent-kind-module">
-						<a href="ejercicio_2.html#mesharray" class="tsd-kind-icon">mesh<wbr>Array</a>
+						<a href="ejercicio_5.html#multiplyall" class="tsd-kind-icon">multiply<wbr>All</a>
 					</li>
 				</ul>
 			</nav>
