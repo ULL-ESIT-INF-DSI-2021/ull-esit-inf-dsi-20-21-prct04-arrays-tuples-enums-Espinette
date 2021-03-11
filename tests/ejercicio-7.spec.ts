@@ -19,7 +19,7 @@ describe('Ejercicio 7 - Puntos n-dimensionales', () => {
     expect(productoNPoints([6, 4, 2], 3)).to.be.deep.equal([18, 12, 6]);
   });
 
-  it('distNEuclidea([6, 4, 2], [3, 2, 1]) returns value 3,61', () => {
-    expect(distNEuclidea([6, 4, 2], [3, 2, 1])).to.be.equal(3.61);
+  it('distNEuclidea([6, 4, 2], [3, 2, 1]) returns value 3,74', () => {
+    expect(distNEuclidea([6, 4, 2], [3, 2, 1])).to.be.equal(3.74);
   });
 });
