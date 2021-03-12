@@ -1,5 +1,1 @@
-# PRACTICA 4. DESARROLLO DE SISTEMAS INFORMÁTICOS
-
-Alberto Rios de la Rosa
-alu0101235929@ull.edu.es
 
