@@ -81,7 +81,11 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 
 ***Captura y explicación de la función resuelta***
  
- ![Ejercicio1Funcion](Imagenes/Ejercicio6Funcion.JPG) 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio6Funcion1sum.JPG) 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio6Funcion3.JPG) 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio6Funcion1.JPG) 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio6Funcion4.JPG) 
+
 
 ***Salida del programa***
 
@@ -93,7 +97,11 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 
 ***Captura y explicación de la función resuelta***
  
- ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion.JPG) 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion1.JPG)
+ ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion2.JPG) 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion3.JPG) 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion4.JPG) 
+
 
 ***Salida del programa***
 
