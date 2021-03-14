@@ -24,14 +24,23 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 Se nos pide crear una función llamada `decodeResistor` que deber recibir como parámetros los nombres de los colores de una resistencia, cada color representa un número, y lo que se espera que devuelva es un número de dos dígitos indicando el valor de la resistencia. Además en el caso que reciba más de dos colores deberá despreciar el resto de números, ya que solo se requieren dos dígitos. El número asociado a cada color es:
 
 Negro: 0
+
 Marrón: 1
+
 Rojo: 2
+
 Naranja: 3
+
 Amarillo: 4
+
 Verde: 5
+
 Azul: 6
+
 Violeta: 7
+
 Gris: 8
+
 Blanco: 9
 
 ***Captura y explicación de la función resuelta***
