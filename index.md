@@ -100,49 +100,49 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 
 ### Ejercicio 4 - Mover los ceros al final
 
-   - ***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-4.ts)
+   - ___Código resuelto___ = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-4.ts)
 
-   - ***Resumen enunciado*** 
+   - ___Resumen enunciado___
 
    Se pide crear una función `moveZeros` que recibirá un array de números y deberá reotornar ese mismo array pero esta vez con todos los ceros desplazados al final del array. Un ejemplo de programa es:
 
   `moveZeros([1, 0, 1, 2, 0, 1, 3]) -> [1, 1, 2, 1, 3, 0, 0]`.
 
- - ***Captura y explicación de la función resuelta***
+ - ___Captura y explicación de la función resuelta___
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio4Funcion.JPG) 
 
    La función recibira el array mencionado y lo que haremos es un `forEach` y en el caso de que el numero a analizar sea un 0, deba desplazarlo dicho número al final del array, con un bucle while que recorra desde la posicion en la que se encuentra el 0 hasta el final del array y retornará el array modificado.
 
- - ***Expectativa del programa***
+ - ___Expectativa del programa___
 
 ![Ejercicio1Funcion](Imagenes/Ejercicio4Prueba.JPG) 
 
 ### Ejercicio 5 - Factoría de multiplicaciones
 
- - ***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-5.ts)
+ - ___Código resuelto___ = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-5.ts)
 
- - ***Resumen enunciado*** 
+ - ___Resumen enunciado___ 
  
    Se pide crear una función `multiplyAll` esta deberá devolver como resultado otra función que toma como argumento un único valor numérico y devuelve un nuevo array. El array devuelto por la segunda función debe ser el resultado de la multiplicación de los números del array por el valor numérico que recibe la segunda función. Además, no se debe modificar el primer array. Un ejemplo sería:
 
   `multiplyAll([2, 6, 8])(3)  -> [6, 18, 24]`.
 
- - ***Captura y explicación de la función resuelta***
+ - ___Captura y explicación de la función resuelta___
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio5Funcion.JPG) 
 
    Una vez creada la función le hacemos un return en el que en el mismo creará un función anónima que recibirá el valor por el que se debe multiplicar cada elemento del array y dentro de la función realizaremos un forEach que recorra el array en el que realizaremos un push a un nuevo array con el valor del numero actual por el multiplicador establecido. Y retornaremos dicho array nuevo creado. 
 
-- ***Expectativa del programa***
+- ___Expectativa del programa___
 
 ![Ejercicio1Funcion](Imagenes/Ejercicio5Prueba.JPG) 
 
 ### Ejercicio 6 - Puntos bi-dimensionales
 
-   - ***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-6.ts)
+   - ___Código resuelto___ = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-6.ts)
 
-   - ***Resumen enunciado*** 
+   - ___Resumen enunciado___ 
 
   Se pide definir un punto bi-dimensional en el que a partir de ese tipo creado definir las siguientes funciones:
 
@@ -150,7 +150,7 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
    2. Calcular el producto de un punto por un número.
    3. Calcular la distancia euclídea entre dos puntos.
 
- - ***Captura y explicación de la función resuelta***
+ - ___Captura y explicación de la función resuelta___
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio6Funcion1sum.JPG) 
  ![Ejercicio1Funcion](Imagenes/Ejercicio6Funcion3.JPG) 
@@ -177,15 +177,15 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 
    Recibirá dos puntos y retornara un valor correspondiente a la distancia Euclidea entre esos dos puntos. Como bien se ve la distancia euclidea se resuelve a partir de la formula que podras encontrar [aquí](https://silvercorp.wordpress.com/2016/09/15/distancia-euclidiana-en-python/)
  
- - ***Expectativa del programa***
+ - ___Expectativa del programa___
 
 ![Ejercicio1Funcion](Imagenes/Ejercicio6Prueba.JPG) 
 
 ### Ejercicio 7 - Puntos n-dimensionales
 
-   - ***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-7.ts)
+   - ___Código resuelto___ = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-7.ts)
 
-   - ***Resumen enunciado*** 
+   - ___Resumen enunciado___
 
   Se pide definir un punto de n-dimensiones con un mínimo de 3 en el que a partir de ese tipo creado definir las siguientes funciones:
 
@@ -193,7 +193,7 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
    2. Calcular el producto de un punto por un número.
    3. Calcular la distancia euclídea entre dos puntos.
  
- - ***Captura y explicación de la función resuelta***
+ - ___Captura y explicación de la función resuelta___
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion1.JPG)
  ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion2.JPG) 
@@ -220,15 +220,15 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 
    Recibirá dos puntos del tipo definido con la condición de que deben tener el mismo tamaño y retornara un valor correspondiente a la distancia Euclidea entre esos dos puntos. Como bien se ve la distancia euclidea se resuelve a partir de la formula que podras encontrar [aquí](https://silvercorp.wordpress.com/2016/09/15/distancia-euclidiana-en-python/)
 
- - ***Expectativa del programa***
+ - ___Expectativa del programa___
 
 ![Ejercicio1Funcion](Imagenes/Ejercicio7Prueba.JPG) 
 
 ### Ejercicio 8 - El agente
 
- - ***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-8.ts)
+ - ___Código resuelto___ = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-8.ts)
 
- - ***Resumen enunciado*** 
+ - ___Resumen enunciado___
 
    Crear una función `agent` en el que deberá recibir el tamaño del tablero, así como un punto inicial y un punto final. El objetivo es calcular la ruta necesaria para llegar desde el punto inicial hasta el punto final sin permitir movimientos en diagonal. Deberá reotnar un array que incluya los pasos que tiene que realizar para llegar a destino. Estos movimientos serán Norte, Sur, Este y Oeste.
 
@@ -240,13 +240,13 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
    agent(X, Y, initialPoint, endPoint) // => [North, North, East, East]
    ```
 
- - ***Captura y explicación de la función resuelta***
+ - ___Captura y explicación de la función resuelta___
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio8Funcion.JPG) 
 
    Primero creamos un tipo point igual que en el ejercicio 6. Lo que realizaremos es un bucle while que mientra destino y final no fueran el mismo punto, y dentro de este 4 if para averiguar por donde desplazarse y en funcion del que entre añadir a un array la dirección que toma y e ir incrementando o decrementando el punto inicial a la posición que corresponde en ese momento. Finalmente retornará el array recorrido final, con la trayectoria final.
 
- - ***Expectativa del programa***
+ - ___Expectativa del programa___
 
 ![Ejercicio1Funcion](Imagenes/Ejercicio8Prueba.JPG) 
 
