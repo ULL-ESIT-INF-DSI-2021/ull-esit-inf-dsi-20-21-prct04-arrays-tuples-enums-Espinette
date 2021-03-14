@@ -28,11 +28,8 @@ Negro: 0
 Marrón: 1
 
 Rojo: 2
-
-Naranja: 3
-
-Amarillo: 4
-
+Naranja: 3 /n
+Amarillo: 4 /n
 Verde: 5
 
 Azul: 6
