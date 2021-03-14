@@ -20,9 +20,9 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 
 ### Ejercicio 1 - Decodificar resistencias
 
- - ***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-1.ts)
+ - ___Código resuelto___ = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-1.ts)
 
- - ***Resumen enunciado*** 
+ - ___Resumen enunciado___
 
    Se nos pide crear una función llamada `decodeResistor` que deber recibir como parámetros los nombres de los colores de una resistencia, cada color representa un número, y lo que se espera que devuelva es un número de dos dígitos indicando el valor de la resistencia. Además en el caso que reciba más de dos colores deberá despreciar el resto de números, ya que solo se requieren dos dígitos. El número asociado a cada color es:
 
