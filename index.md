@@ -21,11 +21,28 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 
 ***Resumen enunciado*** 
  
+Se nos pide crear una función llamada `decodeResistor` que deber recibir como parámetros los nombres de los colores de una resistencia, cada color representa un número, y lo que se espera que devuelva es un número de dos dígitos indicando el valor de la resistencia. Además en el caso que reciba más de dos colores deberá despreciar el resto de números, ya que solo se requieren dos dígitos. El número asociado a cada color es:
+
+Negro: 0
+Marrón: 1
+Rojo: 2
+Naranja: 3
+Amarillo: 4
+Verde: 5
+Azul: 6
+Violeta: 7
+Gris: 8
+Blanco: 9
+
 ***Captura y explicación de la función resuelta***
  
- ![Ejercicio1Funcion](Imagenes/Ejercicio1Funcion.JPG) 
+![Ejercicio1Funcion](Imagenes/Ejercicio1Funcion.JPG) 
+
+Creamos la función que recibirá como parámetros un array de colores, dentro de ella creamos otro array donde estarán todos los colores en el orden del enunciado puesto que el número asociado coincide con la posición en la que se encuentra. Luego realizaremos un `forEach` que lo que hará es analizar cada alemento del array recibido y y siempre que su posición sea menor que 2, se realizará `colores.indexOf(i).toString()`, que lo que hará es obtener la posicion en la que se encuentra ese elemento, y se añadirá a una cadena, finalmente retornará esa cadena pasada a entero gracias a la función `parseInt`.
 
 ***Salida del programa***
+
+![Ejercicio1Funcion](Imagenes/Ejercicio1Prueba.JPG) 
 
 ### Ejercicio 2 - Palabras encadenadas en un array
 
@@ -33,6 +50,16 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 
 ***Resumen enunciado*** 
  
+La función `meshArray` recibirá un array que contiene cadenas de textos y lo que debe de hacer es comprobar si están encadenadas una palabra del array con la siguiente. Esta función podrá devolver:
+
+ - “Error al encadenar" si las cadenas del array no están encadenadas.
+ - Una cadena de texto que contenga las letras que encadenan las palabras del array. A priori no sabe cuantas letras encadenadas tendrán en común, pero al menos será una.
+
+Algunos ejemplos son:
+
+1: [“allow”, “lowering”, “ringmaster”, “terror”] –> “lowringter”
+2: [“kingdom”, “dominator”, “notorious”, “usual”, “allegory”] –> “Error al encadenar”
+
 ***Captura y explicación de la función resuelta***
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio2Funcion.JPG) 
