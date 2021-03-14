@@ -37,21 +37,21 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
    - Gris: 8
    - Blanco: 9
 
- - ***Captura y explicación de la función resuelta***
+ - ___Captura y explicación de la función resuelta___
  
 ![Ejercicio1Funcion](Imagenes/Ejercicio1Funcion.JPG) 
 
    Creamos la función que recibirá como parámetros un array de colores, dentro de ella creamos otro array donde estarán todos los colores en el orden del enunciado puesto que el número asociado coincide con la posición en la que se encuentra. Luego realizaremos un `forEach` que lo que hará es analizar cada alemento del array recibido y y siempre que su posición sea menor que 2, se realizará `colores.indexOf(i).toString()`, que lo que hará es obtener la posicion en la que se encuentra ese elemento, y se añadirá a una cadena, finalmente retornará esa cadena pasada a entero gracias a la función `parseInt`.
 
- - ***Expectativa del programa***
+ - ___Expectativa del programa___
 
 ![Ejercicio1Funcion](Imagenes/Ejercicio1Prueba.JPG) 
 
 ### Ejercicio 2 - Palabras encadenadas en un array
 
- - ***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-2.ts)
+ - ___Código resuelto___ = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-2.ts)
 
- - ***Resumen enunciado*** 
+ - ___Resumen enunciado___ 
  
    La función `meshArray` recibirá un array que contiene cadenas de textos y lo que debe de hacer es comprobar si están encadenadas una palabra del array con la siguiente. Esta función podrá devolver:
 
@@ -63,21 +63,21 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
    1. [“allow”, “lowering”, “ringmaster”, “terror”] –> “lowringter”
    2. [“kingdom”, “dominator”, “notorious”, “usual”, “allegory”] –> “Error al encadenar”
 
- - ***Captura y explicación de la función resuelta***
+ - ___Captura y explicación de la función resuelta___
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio2Funcion.JPG) 
 
-    La función recibirá un array de cadena de textos, dentro realizaremos un bucle for que recorrerá el array, y crearemos la variable *word* y la *nextWord* que apuntaran a la cadena actual con la siguiente y lo que haremos es un bucle while dentro que irá desde la última letra de la primera palabra comprobando si coincide con la primera letra de la siguiente palabra e irá decrementando la letra de la primera palbra hasta que coincida, de encontrar una coincidencia retorna `Error al encadenar`. Luego tendremos un bucle for que ira desde la posicion en la que encontró dos letras iguales e iran avanzando y comprobando letra por letra, en el caso de que recorra hasta el final de la palabra las añade a un array de encontrar un error de coincidencia, retornará `Error al encadenar`. Por último si el todas las palabras se pueden encadenar retornará una cadena con todas las letras usadas a encadenar.
+   La función recibirá un array de cadena de textos, dentro realizaremos un bucle for que recorrerá el array, y crearemos la variable *word* y la *nextWord* que apuntaran a la cadena actual con la siguiente y lo que haremos es un bucle while dentro que irá desde la última letra de la primera palabra comprobando si coincide con la primera letra de la siguiente palabra e irá decrementando la letra de la primera palbra hasta que coincida, de encontrar una coincidencia retorna `Error al encadenar`. Luego tendremos un bucle for que ira desde la posicion en la que encontró dos letras iguales e iran avanzando y comprobando letra por letra, en el caso de que recorra hasta el final de la palabra las añade a un array de encontrar un error de coincidencia, retornará `Error al encadenar`. Por último si el todas las palabras se pueden encadenar retornará una cadena con todas las letras usadas a encadenar.
 
- - ***Expectativa del programa***
+ - ___Expectativa del programa___
 
 ![Ejercicio1Funcion](Imagenes/Ejercicio2Prueba.JPG) 
 
 ### Ejercicio 3 - Calcular la media y concatenar cadenas
 
- - ***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-3.ts)
+ - ___Código resuelto___ = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-3.ts)
 
- - ***Resumen enunciado*** 
+ - ___Resumen enunciado___ 
  
    Se pide crear una funcion con nombre `meanAndConcatenate` que deberá recibir un array de números o carácteres de texto, esta analizará cada elemento del array y lo que hará es devolver:
 
@@ -88,13 +88,13 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 
    `['u', 6, 'd', 1, 'i', 'w', 6, 's', 't', 4, 'a', 6, 'g', 1, 2, 'w', 8, 'o', 2, 0]` -> `[3.6, "udiwstagwo"]`
 
- - ***Captura y explicación de la función resuelta***
+ - ___Captura y explicación de la función resuelta___
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio3Funcion.JPG) 
 
    La función a realizar recibirá lo indicado en el enunciado, luego realizaremos un `foEach` para acceder al contenido de cada posicion del array donde dentro de este crearemos un bucle if en el que se comprobará el tipo del elemento a analizar. En el caso de ser un número lo añadirá a un sumatorio y se incrementará un contador para saber cuantos se suman y tras terminar el bucle dividirlo por esa cantidad para obtener la media, luego tenemos el otro caso en el que será un string, por lo que se irá añadiendo a una cadena juntando todas las letras en una palabra. Finalmente se mostrará un array de tamaño 2 en el que el primer elemento será la media y el segundo la palabra.
 
- - ***Expectativa del programa***
+ - ___Expectativa del programa___
 
 ![Ejercicio1Funcion](Imagenes/Ejercicio3Prueba.JPG) 
 
