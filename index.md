@@ -15,13 +15,97 @@ Para crear el proyecto primero debemos realizar un git clone, de la estructura d
 
 ### Ejercicio 1 - Decodificar resistencias
 
-***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct03-static-types-functions-Espinette/blob/master/src/ejercicio-1.ts)
+***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-1.ts)
 
 ***Resumen enunciado*** 
-
  
 ***Captura y explicación de la función resuelta***
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio1Funcion.JPG) 
 
 ***Salida del programa***
+
+### Ejercicio 2 - Palabras encadenadas en un array
+
+***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-2.ts)
+
+***Resumen enunciado*** 
+ 
+***Captura y explicación de la función resuelta***
+ 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio2Funcion.JPG) 
+
+***Salida del programa***
+
+### Ejercicio 3 - Calcular la media y concatenar cadenas
+
+***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-3.ts)
+
+***Resumen enunciado*** 
+ 
+***Captura y explicación de la función resuelta***
+ 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio3Funcion.JPG) 
+
+***Salida del programa***
+
+### Ejercicio 4 - Mover los ceros al final
+
+***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-4.ts)
+
+***Resumen enunciado*** 
+
+***Captura y explicación de la función resuelta***
+ 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio4Funcion.JPG) 
+
+***Salida del programa***
+
+### Ejercicio 5 - Factoría de multiplicaciones
+
+***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-5.ts)
+
+***Resumen enunciado*** 
+ 
+***Captura y explicación de la función resuelta***
+ 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio5Funcion.JPG) 
+
+***Salida del programa***
+
+### Ejercicio 6 - Puntos bi-dimensionales
+
+***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-6.ts)
+
+***Resumen enunciado*** 
+
+***Captura y explicación de la función resuelta***
+ 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio6Funcion.JPG) 
+
+***Salida del programa***
+
+### Ejercicio 7 - Puntos n-dimensionales
+
+***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-7.ts)
+
+***Resumen enunciado*** 
+
+***Captura y explicación de la función resuelta***
+ 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion.JPG) 
+
+***Salida del programa***
+
+### Ejercicio 8 - El agente
+
+***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-8.ts)
+
+***Resumen enunciado*** 
+
+***Captura y explicación de la función resuelta***
+ 
+ ![Ejercicio1Funcion](Imagenes/Ejercicio8Funcion.JPG) 
+
+***Salida del programa***
+
