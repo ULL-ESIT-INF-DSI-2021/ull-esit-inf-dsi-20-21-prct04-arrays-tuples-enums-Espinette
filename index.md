@@ -40,7 +40,7 @@ Se nos pide crear una función llamada `decodeResistor` que deber recibir como p
 
 Creamos la función que recibirá como parámetros un array de colores, dentro de ella creamos otro array donde estarán todos los colores en el orden del enunciado puesto que el número asociado coincide con la posición en la que se encuentra. Luego realizaremos un `forEach` que lo que hará es analizar cada alemento del array recibido y y siempre que su posición sea menor que 2, se realizará `colores.indexOf(i).toString()`, que lo que hará es obtener la posicion en la que se encuentra ese elemento, y se añadirá a una cadena, finalmente retornará esa cadena pasada a entero gracias a la función `parseInt`.
 
-***Salida del programa***
+***Expectativa del programa***
 
 ![Ejercicio1Funcion](Imagenes/Ejercicio1Prueba.JPG) 
 
@@ -57,14 +57,18 @@ La función `meshArray` recibirá un array que contiene cadenas de textos y lo q
 
 Algunos ejemplos son:
 
- 1: [“allow”, “lowering”, “ringmaster”, “terror”] –> “lowringter”
- 2: [“kingdom”, “dominator”, “notorious”, “usual”, “allegory”] –> “Error al encadenar”
+ 1. [“allow”, “lowering”, “ringmaster”, “terror”] –> “lowringter”
+ 2. [“kingdom”, “dominator”, “notorious”, “usual”, “allegory”] –> “Error al encadenar”
 
 ***Captura y explicación de la función resuelta***
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio2Funcion.JPG) 
 
-***Salida del programa***
+La función recibirá un array de cadena de textos, dentro realizaremos un bucle for que recorrerá el array, y crearemos la variable *word* y la *nextWord* que apuntaran a la cadena actual con la siguiente y lo que haremos es un bucle while dentro que irá desde la última letra de la primera palabra comprobando si coincide con la primera letra de la siguiente palabra e irá decrementando la letra de la primera palbra hasta que coincida, de encontrar una coincidencia retorna `Error al encadenar`. Luego tendremos un bucle for que ira desde la posicion en la que encontró dos letras iguales e iran avanzando y comprobando letra por letra, en el caso de que recorra hasta el final de la palabra las añade a un array de encontrar un error de coincidencia, retornará `Error al encadenar`. Por último si el todas las palabras se pueden encadenar retornará una cadena con todas las letras usadas a encadenar.
+
+***Expectativa del programa***
+
+![Ejercicio1Funcion](Imagenes/Ejercicio2Prueba.JPG) 
 
 ### Ejercicio 3 - Calcular la media y concatenar cadenas
 
@@ -72,11 +76,24 @@ Algunos ejemplos son:
 
 ***Resumen enunciado*** 
  
+Se pide crear una funcion con nombre `meanAndConcatenate` que deberá recibir un array de números o carácteres de texto, esta analizará cada elemento del array y lo que hará es devolver:
+
+ - La media de los valores numéricos.
+ - Una cadena resultado de la concatenación de caracteres del array recibido.
+
+Un ejemplo de salida puede ser el siguiente:
+
+`['u', 6, 'd', 1, 'i', 'w', 6, 's', 't', 4, 'a', 6, 'g', 1, 2, 'w', 8, 'o', 2, 0]` -> `[3.6, "udiwstagwo"]`
+
 ***Captura y explicación de la función resuelta***
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio3Funcion.JPG) 
 
-***Salida del programa***
+La función a realizar recibirá lo indicado en el enunciado, luego realizaremos un `foEach` para acceder al contenido de cada posicion del array donde dentro de este crearemos un bucle if en el que se comprobará el tipo del elemento a analizar. En el caso de ser un número lo añadirá a un sumatorio y se incrementará un contador para saber cuantos se suman y tras terminar el bucle dividirlo por esa cantidad para obtener la media, luego tenemos el otro caso en el que será un string, por lo que se irá añadiendo a una cadena juntando todas las letras en una palabra. Finalmente se mostrará un array de tamaño 2 en el que el primer elemento será la media y el segundo la palabra.
+
+***Expectativa del programa***
+
+![Ejercicio1Funcion](Imagenes/Ejercicio3Prueba.JPG) 
 
 ### Ejercicio 4 - Mover los ceros al final
 
@@ -84,11 +101,19 @@ Algunos ejemplos son:
 
 ***Resumen enunciado*** 
 
+Se pide crear una función `moveZeros` que recibirá un array de números y deberá reotornar ese mismo array pero esta vez con todos los ceros desplazados al final del array. Un ejemplo de programa es:
+
+`moveZeros([1, 0, 1, 2, 0, 1, 3]) -> [1, 1, 2, 1, 3, 0, 0]`.
+
 ***Captura y explicación de la función resuelta***
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio4Funcion.JPG) 
 
-***Salida del programa***
+La función recibira el array mencionado y lo que haremos es un `forEach` y en el caso de que el numero a analizar sea un 0, deba desplazarlo dicho número al final del array, con un bucle while que recorra desde la posicion en la que se encuentra el 0 hasta el final del array y retornará el array modificado.
+
+***Expectativa del programa***
+
+![Ejercicio1Funcion](Imagenes/Ejercicio4Prueba.JPG) 
 
 ### Ejercicio 5 - Factoría de multiplicaciones
 
@@ -96,17 +121,31 @@ Algunos ejemplos son:
 
 ***Resumen enunciado*** 
  
+Se pide crear una función `multiplyAll` esta deberá devolver como resultado otra función que toma como argumento un único valor numérico y devuelve un nuevo array. El array devuelto por la segunda función debe ser el resultado de la multiplicación de los números del array por el valor numérico que recibe la segunda función. Además, no se debe modificar el primer array. Un ejemplo sería:
+
+`multiplyAll([2, 6, 8])(3)  -> [6, 18, 24]`.
+
 ***Captura y explicación de la función resuelta***
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio5Funcion.JPG) 
 
-***Salida del programa***
+Una vez creada la función le hacemos un return en el que en el mismo creará un función anónima que recibirá el valor por el que se debe multiplicar cada elemento del array y dentro de la función realizaremos un forEach que recorra el array en el que realizaremos un push a un nuevo array con el valor del numero actual por el multiplicador establecido. Y retornaremos dicho array nuevo creado. 
+
+***Expectativa del programa***
+
+![Ejercicio1Funcion](Imagenes/Ejercicio5Prueba.JPG) 
 
 ### Ejercicio 6 - Puntos bi-dimensionales
 
 ***Código resuelto*** = [Solución](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct04-arrays-tuples-enums-Espinette/blob/master/src/ejercicio-6.ts)
 
 ***Resumen enunciado*** 
+
+Se pide definir un punto bi-dimensional en el que a partir de ese tipo creado definir las siguientes funciones:
+
+ 1. Sumar y restar dos puntos coordenada a coordenada.
+ 2. Calcular el producto de un punto por un número.
+ 3. Calcular la distancia euclídea entre dos puntos.
 
 ***Captura y explicación de la función resuelta***
  
@@ -115,8 +154,29 @@ Algunos ejemplos son:
  ![Ejercicio1Funcion](Imagenes/Ejercicio6Funcion1.JPG) 
  ![Ejercicio1Funcion](Imagenes/Ejercicio6Funcion4.JPG) 
 
+El tipo de dato creado era un array con de dos elementos de tipo number:
 
-***Salida del programa***
+`type Point = [number, number];`
+
+ - Funcion suma:
+ 
+ Recibirá dos puntos, la funcion retornará un nuevo punto la suma primer elemento de ambos puntos y el segundo elemento de ambos
+ 
+ - Funcion resta:
+
+ Recibirá dos puntos, la funcion retornará un nuevo punto la resta primer elemento de ambos puntos y el segundo elemento de ambos
+
+ - Funcion producto:
+
+ Recibirá un punto y un valor numérico que será el valor a multiplicar, la funcion retornará un nuevo punto con el valor de cada posición multiplicado.
+ 
+ - Funcion distancia Euclidea 
+
+ Recibirá dos puntos y retornara un valor correspondiente a la distancia Euclidea entre esos dos puntos. Como bien se ve la distancia euclidea se resuelve a partir de la formula que podras encontrar [aquí](https://silvercorp.wordpress.com/2016/09/15/distancia-euclidiana-en-python/)
+ 
+***Expectativa del programa***
+
+![Ejercicio1Funcion](Imagenes/Ejercicio6Prueba.JPG) 
 
 ### Ejercicio 7 - Puntos n-dimensionales
 
@@ -124,6 +184,11 @@ Algunos ejemplos son:
 
 ***Resumen enunciado*** 
 
+Se pide definir un punto de n-dimensiones con un mínimo de 3 en el que a partir de ese tipo creado definir las siguientes funciones:
+
+ 1. Sumar y restar dos puntos coordenada a coordenada.
+ 2. Calcular el producto de un punto por un número.
+ 3. Calcular la distancia euclídea entre dos puntos.
 ***Captura y explicación de la función resuelta***
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion1.JPG)
@@ -131,8 +196,29 @@ Algunos ejemplos son:
  ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion3.JPG) 
  ![Ejercicio1Funcion](Imagenes/Ejercicio7Funcion4.JPG) 
 
+El tipo de dato creado era un array con de dos elementos de tipo number:
 
-***Salida del programa***
+`type PointN = [number, number, number, ...number[]];`
+
+ - Funcion suma:
+ 
+ Recibirá dos puntos del tipo definido con la condición de que deben tener el mismo tamaño, la funcion retornará un nuevo punto del mismo tamaño, la suma de cada de ambos puntos en las mismas posiciones.
+ 
+ - Funcion resta:
+
+ Recibirá dos puntos del tipo definido con la condición de que deben tener el mismo tamaño, la funcion retornará un nuevo punto del mismo tamaño, la resta de cada de ambos puntos en las mismas posiciones.
+
+ - Funcion producto:
+
+ Recibirá un punto del tipo definido y un multiplicado, la funcion retornará un nuevo punto del mismo tamaño, en el que se multiplique cada elemento por el multiplicador
+ 
+ - Funcion distancia Euclidea 
+
+ Recibirá dos puntos del tipo definido con la condición de que deben tener el mismo tamaño y retornara un valor correspondiente a la distancia Euclidea entre esos dos puntos. Como bien se ve la distancia euclidea se resuelve a partir de la formula que podras encontrar [aquí](https://silvercorp.wordpress.com/2016/09/15/distancia-euclidiana-en-python/)
+
+***Expectativa del programa***
+
+![Ejercicio1Funcion](Imagenes/Ejercicio7Prueba.JPG) 
 
 ### Ejercicio 8 - El agente
 
@@ -140,9 +226,11 @@ Algunos ejemplos son:
 
 ***Resumen enunciado*** 
 
+Crear una función `agent` en el que deberá recibir el tamaño del tablero, así como un punto inicial y un punto final. El objetivo es calcular la ruta necesaria
 ***Captura y explicación de la función resuelta***
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio8Funcion.JPG) 
 
-***Salida del programa***
+***Expectativa del programa***
 
+![Ejercicio1Funcion](Imagenes/Ejercicio8Prueba.JPG) 
