@@ -226,11 +226,31 @@ El tipo de dato creado era un array con de dos elementos de tipo number:
 
 ***Resumen enunciado*** 
 
-Crear una función `agent` en el que deberá recibir el tamaño del tablero, así como un punto inicial y un punto final. El objetivo es calcular la ruta necesaria
+Crear una función `agent` en el que deberá recibir el tamaño del tablero, así como un punto inicial y un punto final. El objetivo es calcular la ruta necesaria para llegar desde el punto inicial hasta el punto final sin permitir movimientos en diagonal. Deberá reotnar un array que incluya los pasos que tiene que realizar para llegar a destino. Estos movimientos serán Norte, Sur, Este y Oeste.
+
+Un ejemplo de ejecución sería:
+
+```TypeScript
+initialPoint = (1, 3)
+endPoint = (3, 5)
+agent(X, Y, initialPoint, endPoint) // => [North, North, East, East]
+```
+
 ***Captura y explicación de la función resuelta***
  
  ![Ejercicio1Funcion](Imagenes/Ejercicio8Funcion.JPG) 
 
+Primero creamos un tipo point igual que en el ejercicio 6. Lo que realizaremos es un bucle while que mientra destino y final no fueran el mismo punto, y dentro de este 4 if para averiguar por donde desplazarse y en funcion del que entre añadir a un array la dirección que toma y e ir incrementando o decrementando el punto inicial a la posición que corresponde en ese momento. Finalmente retornará el array recorrido final, con la trayectoria final.
+
 ***Expectativa del programa***
 
 ![Ejercicio1Funcion](Imagenes/Ejercicio8Prueba.JPG) 
+
+### Visualización de pruebas realizadas correctamente
+
+![Ejercicio1Funcion](Imagenes/PruebasSuperadas.JPG) 
+
+### CONCLUSIONES
+
+En esta práctica hemos aprendido no solo a realizar nuevos ejercicios en este caso enfocados más a arrays y tuplas, si no también hemos podido saber como se genera la documentación de un programa, a su vez también averiguamos como realizar los test para comprobar si se genera correctamente lo requerido en la práctica. Bajo mi punto de vista esta práctica nos ha servido para seguir mejorando en la programación TypeScript pero además hemos aprendido a como mejorar la presentación y la estructura de nuestros ejercicios.
+
